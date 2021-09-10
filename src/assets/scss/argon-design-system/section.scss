@@ -2,6 +2,10 @@
     position: relative;
     padding-top: $spacer * 4;
     padding-bottom: $spacer * 4;
+    background-color: rgb(230, 225, 225);
+    // background: linear-gradient(150deg, #52A16D 15%, #F2BE3D 70%, #EB413D 94%);
+    
+
 }
 
 .section-xl {
@@ -297,8 +301,8 @@
         }
 
         &.shape-default {
-            background: linear-gradient(150deg, shapes-default-color("step-1-gradient-bg") 15%, shapes-default-color("step-2-gradient-bg") 70%, shapes-default-color("step-3-gradient-bg") 94%);
-        }
+    background: linear-gradient(150deg, #52A16D 15%, #F2BE3D 70%, #EB413D 94%);
+}
 
         &.shape-light {
             background: linear-gradient(150deg, shapes-light-color("step-1-gradient-bg") 15%, shapes-light-color("step-2-gradient-bg") 70%, shapes-light-color("step-3-gradient-bg") 94%);

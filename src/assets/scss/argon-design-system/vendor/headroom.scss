@@ -15,6 +15,6 @@
 .headroom--not-top {
 	padding-top: .5rem;
 	padding-bottom: .5rem;
-    background-color: theme-color("default") !important;
+       background: linear-gradient(150deg, #0F5FA6 15%, #049DD9 70%, #EB413D 94%) !important;
     box-shadow: 0 1px 10px rgba(130, 130, 134, 0.1);
 }
