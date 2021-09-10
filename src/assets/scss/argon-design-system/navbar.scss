@@ -112,6 +112,7 @@
                 transform: rotate(-45deg) translateY(1rem);
                 z-index: -5;
                 border-radius: $border-radius-sm;
+                background-color:#0F5FA6
             }
         }
 
@@ -145,6 +146,7 @@
             transform: translate(0, 10px) perspective(200px) rotateX(-2deg);
             transition: visibility 0.25s, opacity 0.25s, transform 0.25s;
             animation: none;
+            background-color: #F2BE3D;
           }
 
           .nav-item.dropdown:hover > .dropdown-menu {
@@ -154,6 +156,10 @@
             visibility: visible;
             transform: translate(0, 0);
             animation: none;
+          }
+
+          .dropdown-menu a:hover {
+background-color: #EB413D;
           }
 
           .nav-item.dropdown > .dropdown-menu {
@@ -171,6 +177,7 @@
               &:before {
                 left: -16px;
                 top: 4px;
+                background-color: #0F5FA6;
               }
             }
           }

@@ -64,7 +64,16 @@ class Profile extends React.Component {
               </svg>
             </div>
           </section>
-          <section className="section">
+          <section className="section ">
+          <div className="shape shape-style-1 shape-default alpha-4">
+              <span />
+              <span />
+              <span />
+              <span />
+              <span />
+              <span />
+              <span />
+            </div>
             <Container>
               <Card className="card-profile shadow mt--300">
                 <div className="px-4">
